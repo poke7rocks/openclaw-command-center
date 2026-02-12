@@ -18,8 +18,10 @@ Phase 2 (Morning - 4 hours):      [░░░░░░░░░░] 0/5 agents co
 |-------|------|--------|---------|----------|
 | Agent 01 | Database Setup | 🟡 In Progress | 2026-02-12 03:10 UTC | build-logs/agent-01-database.md |
 | Agent 02 | Backend Structure | 🟡 In Progress | 2026-02-12 03:10 UTC | build-logs/agent-02-backend.md |
+| Agent 03 | API Gateway | ⏸️ Waiting (Agent 02) | 2026-02-12 03:10 UTC | build-logs/agent-03-api.md |
 | Agent 04 | Frontend Base | ⏸️ Waiting (Agent 02) | 2026-02-12 03:10 UTC | build-logs/agent-04-frontend.md |
-| Agent 06 | Real-time Updates (WebSocket) | 🔴 Blocked | 2026-02-12 03:10 UTC | build-logs/agent-06-websocket.md |
+| Agent 05 | Dashboard UI | ⏸️ Waiting (Agent 03 & 04) | 2026-02-12 03:10 UTC | build-logs/agent-05-dashboard.md |
+| Agent 06 | Real-time Updates (WebSocket) | ⏸️ Waiting (Agent 05) | 2026-02-12 03:10 UTC | build-logs/agent-06-websocket.md |
 
 ---
 
@@ -33,7 +35,10 @@ Phase 2 (Morning - 4 hours):      [░░░░░░░░░░] 0/5 agents co
 
 ## Blockers & Issues
 
-- **Agent 06 (WebSocket):** Blocked waiting for Agent 05 (Dashboard UI) to create frontend structure
+- **Agent 03 (API Gateway):** Waiting for Agent 02 (Backend Structure) to complete
+- **Agent 04 (Frontend Base):** Waiting for Agent 02 (Backend Structure) to complete
+- **Agent 05 (Dashboard UI):** Waiting for Agent 03 (API Gateway) AND Agent 04 (Frontend Base) to complete
+- **Agent 06 (WebSocket):** Waiting for Agent 05 (Dashboard UI) to complete
 
 ---
 
