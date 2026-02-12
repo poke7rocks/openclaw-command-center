@@ -16,7 +16,10 @@ Phase 2 (Morning - 4 hours):      [░░░░░░░░░░] 0/5 agents co
 
 | Agent | Task | Status | Started | Log File |
 |-------|------|--------|---------|----------|
-| - | - | - | - | - |
+| Agent 01 | Database Setup | 🟡 In Progress | 2026-02-12 03:10 UTC | build-logs/agent-01-database.md |
+| Agent 02 | Backend Structure | 🟡 In Progress | 2026-02-12 03:10 UTC | build-logs/agent-02-backend.md |
+| Agent 04 | Frontend Base | ⏸️ Waiting (Agent 02) | 2026-02-12 03:10 UTC | build-logs/agent-04-frontend.md |
+| Agent 06 | Real-time Updates (WebSocket) | 🔴 Blocked | 2026-02-12 03:10 UTC | build-logs/agent-06-websocket.md |
 
 ---
 
@@ -30,7 +33,7 @@ Phase 2 (Morning - 4 hours):      [░░░░░░░░░░] 0/5 agents co
 
 ## Blockers & Issues
 
-*None yet*
+- **Agent 06 (WebSocket):** Blocked waiting for Agent 05 (Dashboard UI) to create frontend structure
 
 ---
 
